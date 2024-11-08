@@ -13,7 +13,7 @@ function Home() {
           <p>I have so many skills now : </p>
         </div>
         <div className="home-page__intro__frame">
-          <img className="home-page__intro__frame__photo"/>
+          <img className="home-page__intro__frame__photo" src="/images/eva_placeholder.jpg" alt="portrait of Eva"/>
         </div>
       </div>
 
