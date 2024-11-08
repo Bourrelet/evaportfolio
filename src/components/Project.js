@@ -1,6 +1,7 @@
 import React from 'react';
 
-function Project() {
+function Project({id}) {
+
   return (
     <div>
       
