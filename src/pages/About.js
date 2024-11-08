@@ -1,7 +1,6 @@
-// src/pages/Presentation.js
 import React from 'react';
 
-function Presentation() {
+function About() {
   return (
     <div>
       <h1>Présentation</h1>
@@ -10,4 +9,4 @@ function Presentation() {
   );
 }
 
-export default Presentation;
+export default About;
