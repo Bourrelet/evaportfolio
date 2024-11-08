@@ -6,8 +6,9 @@ function Header() {
   return (
     <header>
       <nav>
-        <Link to="/">What have I done ?</Link>
-        <Link to="/about">I am in phase with humanity</Link>
+        <Link to="/">Home</Link>
+        <Link to="/work">My Work</Link>
+        <Link to="/about">Eva</Link>
       </nav>
     </header>
   );

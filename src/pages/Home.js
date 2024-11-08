@@ -3,8 +3,8 @@ import React from 'react';
 function Home() {
   return (
     <div>
-      <h1>Venez vers moi Madame</h1>
-      <p>Voici mes projets.</p>
+      <h1>Here is the homepage</h1>
+      <p>And it is splendid, perfectly.</p>
     </div>
   );
 }
