@@ -1,39 +1,103 @@
 {
-    "techs": [
-      {
-        "id": "468548",
-        "name": "JavaScript",
-        "logo": "/images/tech-logos/js-logo.png",
-        "description": "Langage de programmation pour le web."
-      },
-      {
-        "id": "352409",
-        "name": "React",
-        "logo": "/images/tech-logos/react-logo.png",
-        "description": "Bibliothèque pour construire des interfaces utilisateur."
-      }
-    ],
-    "works": [
-      {
-        "title": "Projet Portfolio",
-        "description": "Un portfolio pour présenter mes projets.",
-        "coverImage": "/images/project-screenshots/project1-cover.png",
-        "images": [
-          "/images/project-screenshots/project1-1.png",
-          "/images/project-screenshots/project1-2.png"
-        ],
-        "link": "https://github.com/mon-profil/portfolio"
-      },
-      {
-        "title": "Projet Portfolio",
-        "description": "Un portfolio pour présenter mes projets.",
-        "coverImage": "/images/project-screenshots/project1-cover.png",
-        "images": [
-          "/images/project-screenshots/project1-1.png",
-          "/images/project-screenshots/project1-2.png"
-        ],
-        "link": "https://github.com/mon-profil/portfolio"
-      }
-    ]
-  }
-  
+  "techs": [
+    {
+      "id": "1",
+      "name": "HTML5",
+      "logo": "/images/logo/html5.svg",
+      "skills": [
+        "Structurer le contenu des pages",
+        "Utilisation des balises sémantiques",
+        "Accessibilité (a11y)",
+        "SEO basique"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "CSS3",
+      "logo": "/images/logo/css3.svg",
+      "skills": [
+        "Responsive design avec flexbox et grid",
+        "Animations et transitions",
+        "Préprocesseurs (SCSS)",
+        "Création de layouts complexes"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "JavaScript",
+      "logo": "/images/logo/javascript.svg",
+      "skills": [
+        "Manipulation du DOM",
+        "ES6+ (let, const, arrow functions, etc.)",
+        "Programmation asynchrone (promises, async/await)",
+        "Gestion d’événements"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "React",
+      "logo": "/images/logo/react.svg",
+      "skills": [
+        "Création de composants réutilisables",
+        "Gestion de l'état avec hooks",
+        "React Router pour le routage des pages",
+        "Interopérabilité avec des APIs"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Node.js",
+      "logo": "/images/logo/nodedotjs.svg",
+      "skills": [
+        "Création de serveurs avec Express",
+        "Gestion des fichiers et des opérations I/O",
+        "Authentification (JWT, cookies)",
+        "Développement d'APIs RESTful"
+      ]
+    },
+    {
+      "id": "6",
+      "name": "MongoDB",
+      "logo": "/images/logo/mongodb.svg",
+      "skills": [
+        "Création et gestion de collections",
+        "Utilisation de Mongoose pour la modélisation des données",
+        "Requêtes CRUD",
+        "Optimisation des requêtes pour la performance"
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Postman",
+      "logo": "/images/logo/postman.svg",
+      "skills": [
+        "Test et débogage des APIs",
+        "Automatisation des tests",
+        "Gestion des environnements",
+        "Création de collections de requêtes"
+      ]
+    }
+  ],
+  "works": [
+    {
+      "title": "Portfolio Project",
+      "cover": "/images/project-screenshots/portfolio-cover.png",
+      "screenshots": [
+        "/images/project-screenshots/portfolio-screenshot1.png",
+        "/images/project-screenshots/portfolio-screenshot2.png"
+      ],
+      "description": "Un portfolio pour présenter mes projets de développement web. Ce projet m'a permis de perfectionner mes compétences en React et en création de composants réutilisables.",
+      "link": "https://github.com/mon-profil/portfolio"
+    },
+    {
+      "title": "Gestion de Tâches",
+      "cover": "/images/project-screenshots/task-manager-cover.png",
+      "screenshots": [
+        "/images/project-screenshots/task-manager-screenshot1.png",
+        "/images/project-screenshots/task-manager-screenshot2.png"
+      ],
+      "description": "Une application de gestion de tâches permettant de créer, modifier et supprimer des tâches. Ce projet m'a aidé à approfondir mes connaissances en MongoDB, Node.js et Express.",
+      "link": "https://github.com/mon-profil/task-manager"
+    }
+  ]
+}

@@ -4,7 +4,7 @@ function About() {
   return (
     <div>
       <h1>That's Eva</h1>
-      <p>And she's slendid.</p>
+      <p>And she's slendid, perfectly.</p>
     </div>
   );
 }
