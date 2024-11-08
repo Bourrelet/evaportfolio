@@ -1,5 +1,6 @@
 import React from 'react';
-import './App.scss';
+import '../styles/App.scss';
+
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
       <section id="about" className="about">
         <h2>Présentation</h2>
         <p>
-          Bienvenue sur mon portfolio ! Je suis Eva, développeuse passionnée par le web.
+          Bienvenue sur mon portfolio ! Je suis Eva, développeuse passionnée.
           Voici mon parcours, mes intérêts, et ce que j’aime dans le développement.
         </p>
       </section>
@@ -32,7 +33,7 @@ function App() {
           <li>React</li>
           <li>Node.js</li>
           <li>CSS / SCSS</li>
-          <li>Bootstrap</li>
+
         </ul>
       </section>
 
