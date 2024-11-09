@@ -1,7 +1,7 @@
 import React, { useState } from 'react'; // Ajoute `useState` à l'import
 import '../styles/Badge.scss'; // Chemin relatif vers le dossier styles
 
-function Badge({id, name, logo, skills}) {
+function Badge({id, name, logo, skills, color}) {
  
   const [detected, setDetected] = useState(false);
 
