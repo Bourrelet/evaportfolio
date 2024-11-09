@@ -1,6 +1,7 @@
 import React from 'react';
 import data from '../data/data.json'
 import Badge from '../components/Badge';
+import '../styles/Home.scss';
 
 function Home() {
   
@@ -8,8 +9,8 @@ function Home() {
     <div className="home-page">
       <div className="home-page__intro">
         <div className="home-page__intro__txt">
-          <h1>Web Developer Eva</h1>
-          <h2>Hello human, I can help.</h2>
+          <h2>Web Developer Eva</h2>
+          <h1>Hello human, I can help.</h1>
           <p>I have so many skills now : </p>
         </div>
         <div className="home-page__intro__frame">

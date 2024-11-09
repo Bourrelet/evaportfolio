@@ -1,20 +1,16 @@
 .badge {
-    border: 1px solid #ddd;
-    padding: 10px;
-    display: inline-block;
-    text-align: center;
-    width: 150px;
-    margin: 10px;
+  display: flex; flex-direction: row; justify-content: space-between; align-items: center;
+  &__tech {
+    &__logo {
+
+    }
+    &__name {
+
+    }
   }
-  
-  .badge__tech__logo {
-    width: 50px;
-    height: 50px;
+  &__skills {
+    display: none;
+
   }
-  
-  .badge__tech__skills {
-    list-style-type: none;
-    padding: 0;
-    margin-top: 10px;
-  }
-  
+
+}

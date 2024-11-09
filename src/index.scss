@@ -1,6 +1,6 @@
-@import './styles/variables';
-@import './styles/mixins';
-@import './styles/base';
+// @import './styles/variables';
+// @import './styles/mixins';
+
 
 
 html {
@@ -8,14 +8,17 @@ html {
   // background-color: white;
   max-width: 1440px;
   margin: 0 auto;
+  border: 1px solid red;
+  position: relative;
 }
 
 body {
   // background-color: black;
-  margin: 0px 8.57% 0px 8.57%;
+  margin: 0px 8.35%;
   height: 100%;
   max-width: 1440px;
-  margin: 0 auto;
+  // margin: 0 auto;
+  border: 1px solid black
 }
 
 

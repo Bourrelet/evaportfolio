@@ -18,7 +18,7 @@ function Badge({id, name, logo, skills}) {
         <img className='badge__tech__logo' src={logo} alt={`${name} logo`}/>
         <p className='badge__tech__name'>{name}</p>
       </div>
-      <div className='badge__tech__skills'>
+      <div className='badge__skills'>
         {skills.map((skill, index) => <p key={index}>{skill}</p>)}
       </div>  
     </div>
