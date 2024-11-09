@@ -1,0 +1,14 @@
+.header {
+    
+    &__frame {
+        display: flex; flex-direction: row; justify-content: space-between;
+
+        &__txt {
+            font-size: 18px;
+            font-weight: bold;
+        }
+    }
+
+
+
+}

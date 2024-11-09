@@ -5,7 +5,7 @@ import Home from '../pages/Home';
 import About from '../pages/About';
 import Work from '../pages/Work';
 import '../styles/App.scss';
-import Project from '../components/Project';
+
 
 function App() {
   return (
@@ -16,7 +16,6 @@ function App() {
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="work" element={<Work />} />
-          <Route path="work/:id" element={<Project />} />
         </Route>
       </Routes>
     </Router>
