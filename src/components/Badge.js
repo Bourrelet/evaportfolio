@@ -1,26 +1,35 @@
-import React from 'react';
+import React, { useState } from 'react'; // Ajoute `useState` à l'import
 import '../styles/Badge.scss'; // Chemin relatif vers le dossier styles
 
 function Badge({id, name, logo, skills}) {
  
-  // const [detected, setDetected] = useState(false);
+  const [detected, setDetected] = useState(false);
 
-  // const detection = () => {
-  //     setDetected(!detected);
-  // }
+  const detection = () => {
+      setDetected(!detected);
+  }
 
-  // const dynamicTag = `${detected ? 'isOpen' : 'isClosed'}`;
+  const techNameAnimation = `${detected ? 'visible' : 'invisible'}`;
+  const skillsAnimation = `${detected ? 'open' : 'closed'}`;
+  const badgeAnimation =  `${detected ? 'noticed' : 'unnoticed'}`;
+  
   // const dynamicRotation = `${detected ? 'down' : 'up'}`;
 
   return (
-    <div className='badge'>
-      <div className='badge__tech'>
-        <img className='badge__tech__logo' src={logo} alt={`${name} logo`}/>
-        <p className='badge__tech__name'>{name}</p>
-      </div>
-      <div className='badge__skills'>
-        {skills.map((skill, index) => <p key={index}>{skill}</p>)}
-      </div>  
+    <div className='badge' onMouseEnter={detection} onMouseLeave={detection}>
+
+      <div className={` badge__frame ${badgeAnimation}`}>
+
+        <div className='badge__frame__tech' >
+          <img className='badge__frame__tech__logo' src={logo} alt={`${name} logo`}/>
+          <p className={`badge__frame__tech__name ${techNameAnimation}`}>{name}</p>
+        </div>
+
+        <ul className={`badge__frame__skills ${skillsAnimation}`}>
+          {skills.map((skill, index) => <li key={index}>{skill}</li>)}
+        </ul> 
+
+      </div> 
     </div>
   );
 }

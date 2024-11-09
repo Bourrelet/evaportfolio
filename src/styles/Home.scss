@@ -8,16 +8,6 @@
 
         &__txt {
             max-width: 41%;
-            h2{
-                color: yellow;
-
-            }
-            h1{
-                color: black;
-
-            }
-
-
         }
 
         &__frame{
@@ -36,6 +26,12 @@
                 border-radius: 100% 0% 0% 100% / 0% 100% 0% 100% ;
                 
             }
+        }
+
+        &__badges {
+            display: flex; flex-direction: row; justify-content: space-between ; align-items: center; 
+            flex-wrap: wrap;
+            margin: 54px 5% 0px 5%;
         }
 
 
