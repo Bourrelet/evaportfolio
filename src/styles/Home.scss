@@ -1,3 +1,4 @@
+@import './variables';
 .home-page{
     width: 100% ; 
     margin-top: 54px;
@@ -8,6 +9,11 @@
 
         &__txt {
             max-width: 41%;
+            padding: 15px;
+            background-color: rgba(249, 250, 255, 1);
+            border: 1px solid $grey;
+            border-radius: 20px;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
         }
 
         &__frame{
