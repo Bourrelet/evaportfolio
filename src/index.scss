@@ -1,4 +1,4 @@
-// @import './styles/variables';
+@import './styles/_variables';
 // @import './styles/mixins';
 
 
@@ -8,18 +8,16 @@ html {
   // background-color: white;
   max-width: 1440px;
   margin: 0 auto;
-  border: 1px solid red;
+  // border: 1px solid red;
   position: relative;
-  background-color: rgba(255, 255, 255, 1)
+  background-color: $lavender;
 }
 
 body {
-  // background-color: black;
   margin: 0px 8.35%;
   height: 100%;
   max-width: 1440px;
-  // margin: 0 auto;
-  border: 1px solid black
+
 }
 
 
@@ -36,6 +34,45 @@ ul {
 a {
   text-decoration: none; /* Enlève le soulignement par défaut */
   display: block; /* Permet au lien de prendre tout l'espace du <li> */
+  &:hover {
+    color: $purple;
+    cursor: pointer;
+  }
+  &:visited {
+    color: $purple;
+  }                
+
 }
 
+p , li {
+  font-family: "Nunito", sans-serif;
+  // color: $greyone;
+  color: $dark;
+  // color: black;
+}
 
+h1{
+  font-family: "Playfair Display", serif;
+  color: black;  
+  
+}
+
+h2 {
+  font-family: "Playfair Display", serif;
+  color: $purple;
+  text-decoration: underline;
+}
+
+button {
+  font-family: "Playfair Display", serif;
+  font-weight: 550;
+  background-color: $paleblue;
+  border: 1px solid $grey;
+  padding: 10px;
+  border-radius: 50px;
+  text-align: center;
+  width: fit-content;
+  &:hover {
+      cursor: pointer;
+  }
+}

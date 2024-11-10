@@ -1,8 +1,10 @@
 import React from 'react';
+import '../styles/About.scss'
 
 function About() {
   return (
     <div className='aboutMe'>
+
       <div className='aboutMe__content'>
 
         <div className='aboutMe__content__title'>
@@ -13,9 +15,10 @@ function About() {
           <p>I wanna live a stress-free and quiet life.</p>
           <p>I can help. </p>
         </div>
-        <div className='aboutMe__content__resume'>
-          <a href="https://drive.google.com/file/d/1oIPyKeSr0YKJaHK1Clt3bS2VRK5plL0y/view?usp=drive_link"  target="_blank" rel="noopener noreferrer"> Resume </a>
-        </div>
+
+        <button className="aboutMe__content__resume" onClick={() => window.open("https://drive.google.com/file/d/1oIPyKeSr0YKJaHK1Clt3bS2VRK5plL0y/view?usp=drive_link", "_blank", "noopener,noreferrer")}>
+        Resume
+        </button>
 
       </div>
 

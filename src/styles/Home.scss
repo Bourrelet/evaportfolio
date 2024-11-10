@@ -34,6 +34,7 @@
             grid-auto-rows: minmax(100px, 150px); 
             justify-content: center;
             place-items: center; 
+            row-gap: 1vw;  // Augmenter le gap avec un media query quand le vw diminue
         }
 
 
