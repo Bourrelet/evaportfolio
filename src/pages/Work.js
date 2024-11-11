@@ -1,6 +1,7 @@
 import React from 'react';
 import Card from '../components/Card';
-import data from '../data/data.json'
+import data from '../data/data.json';
+import '../styles/Work.scss';
 
 
 function Work() {

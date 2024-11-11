@@ -1,0 +1,29 @@
+@import './variables.scss';
+
+.myWork {
+    // border: 1px solid blue;
+    
+    &__title {
+        background-color: $darkgrape;
+        width: fit-content;
+        padding: 15px;
+        border-radius: 0px 20px 20px 0px;
+        
+    }
+    &__box {        
+        margin: 0 2.5%;
+        display: grid;
+        grid-template-columns: repeat(2, auto); 
+        grid-auto-rows: auto;        
+        justify-content: center;
+        column-gap: 5%;  
+        border-radius: 20px;
+        border: 1px solid $grey;
+
+        // margin: 0 5%;
+       
+
+        
+    }
+}
+
