@@ -81,20 +81,20 @@
   "works": [
     {
       "id": "101",
-      "title": "Portfolio Project",
-      "cover": "/images/project-screenshots/portfolio-cover.png",
+      "title": "Web App de location avec React",
+      "cover": "/images/work/React/accueil.jpg",
       "samples": [
         {
-          "image": "/images/project-screenshots/portfolio-screenshot1.png",
-          "comment": "Page d'accueil du portfolio montrant les compétences et projets en avant."
+          "image": "//images/work/React/fichelogement.jpg",
+          "comment": "This page features many components handmade by me! Like a dropdown menu, or even a carousel. And everything is responsive.  "
         },
         {
-          "image": "/images/project-screenshots/portfolio-screenshot2.png",
-          "comment": "Section des projets avec des cartes interactives pour chaque réalisation."
+          "image": "//images/work/React/erreur.jpg",
+          "comment": "The routing is dynamic and handles parameters, enabling navigation to an error page for tricky users."
         }
       ],
-      "description": "Un portfolio pour présenter mes projets de développement web. Ce projet m'a permis de perfectionner mes compétences en React et en création de composants réutilisables.",
-      "link": "https://github.com/mon-profil/portfolio"
+      "description": "I learned React by building a real estate rental single page application.",
+      "link": "https://github.com/Bourrelet/kaza-eva"
     },
     {
       "id": "102",

@@ -1,7 +1,8 @@
 import React, { useState } from 'react'; // Ajoute `useState` à l'import
 import '../styles/Project.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAngleLeft, faAngleRight } from '@fortawesome/free-solid-svg-icons';
+import { faAngleLeft, faAngleRight} from '@fortawesome/free-solid-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 
 
@@ -13,6 +14,7 @@ function Project({samples, link, closeModale}) {
   
   const prevBtn = <FontAwesomeIcon icon={faAngleLeft} />;
   const nextBtn = <FontAwesomeIcon icon={faAngleRight} />;
+  const gitHubCat = <FontAwesomeIcon icon={faGithub} />;
 
   const [activeIndex , setActiveIndex] = useState(0);
 
@@ -29,20 +31,28 @@ function Project({samples, link, closeModale}) {
     <div className='project'>
       
       <div className='project__gallery'>
-        <img className='gallerie__img' src={samples[activeIndex].image} alt={`${activeIndex + 1}`}/>
+        <img className='project__gallery__img' src={samples[activeIndex].image} alt={`${activeIndex + 1}`}/>
         {samples.length > 1 && (
-        <div className='gallerie__nav'>
-          <div className='gallerie__nav__btn' onClick={prevImg}>{prevBtn}</div>
-          <div className='gallerie__nav__btn' onClick={nextImg}>{nextBtn}</div>
-          <p className='gallerie__index'>{`${activeIndex + 1} / ${samples.length}`}</p>
+        <div className='project__gallery__nav'>
+
+          <div className='project__gallery__nav__btn'>
+
+            <div className='project__gallery__nav__btn-prev' onClick={prevImg}>{prevBtn}</div>
+            <div className='project__gallery__nav__btn-next' onClick={nextImg}>{nextBtn}</div>
+
+          </div>
+
+          <p className='project__gallery__nav__index'>{`${activeIndex + 1} / ${samples.length}`}</p>
+
         </div>)}
+        
       </div>
 
       <div className='project__content'>
         <p className='project__content__txt' >{samples[activeIndex].comment}</p>
         <div className='project__content__btn'> 
           <button className='project__content__btn__close' onClick={closeModale}> Close Project </button>
-          <button className='project__content__btn__link' onClick={() => window.open({link})}> GitHub </button>
+          <button className='project__content__btn__link' onClick={() => window.open({link})}> {gitHubCat} </button>
         </div>
         
       </div>

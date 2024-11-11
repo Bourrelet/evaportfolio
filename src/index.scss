@@ -2,7 +2,6 @@
 // @import './styles/mixins';
 
 
-
 html {
   height: 100%;
   background-color: $lavenderwhite;
@@ -11,6 +10,7 @@ html {
   margin: 0 auto;
   // border: 1px solid red;
   position: relative;
+  box-sizing: border-box;
   
 }
 
@@ -72,8 +72,6 @@ h3 {
 }
 
 
-
-
 button {
   font-family: "Playfair Display", serif;
   font-weight: 550;
@@ -83,6 +81,7 @@ button {
   border-radius: 50px;
   text-align: center;
   width: fit-content;
+  min-width: 105px;
   &:hover {
       cursor: pointer;
   }
