@@ -1,8 +1,20 @@
 @import './variables.scss';
 
 .card {
-    padding: 15px;
+    display: flex; flex-direction: row; justify-content: space-between;
     background-color: $darkgrape;
     border-radius: 20px;
     border: 1px solid $grey;
+    &__content {
+        padding: 15px;
+        width: 45%;
+        &__btn {
+            text-align: end;
+        }
+    }
+    &__cover {
+        width: 50%;
+        border: 1px solid white;
+        border-radius: 0px 20px 20px 0px;
+    }
 }

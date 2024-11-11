@@ -1,5 +1,5 @@
 import React, { useState } from 'react'; // Ajoute `useState` à l'import
-import '../styles/Projet.scss';
+import '../styles/Project.scss';
 
 
 
