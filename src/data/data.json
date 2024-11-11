@@ -85,11 +85,11 @@
       "cover": "/images/work/React/accueil.jpg",
       "samples": [
         {
-          "image": "//images/work/React/fichelogement.jpg",
+          "image": "/images/work/React/fichelogement.jpg",
           "comment": "This page features many components handmade by me! Like a dropdown menu, or even a carousel. And everything is responsive.  "
         },
         {
-          "image": "//images/work/React/erreur.jpg",
+          "image": "/images/work/React/erreur.jpg",
           "comment": "The routing is dynamic and handles parameters, enabling navigation to an error page for tricky users."
         }
       ],

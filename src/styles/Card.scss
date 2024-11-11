@@ -4,10 +4,14 @@
 .card {
     position: relative;
     z-index: 1;
+    // border: 1px solid black;
+    border-radius: 20px;
+    // box-sizing: border-box;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
     
     &__content {
         box-sizing: border-box;
-        background-color: $darkgrape;
+        background-color: rgba(0, 0, 0, 0.70);
         border-radius: 20px;
         border: 1px solid $grey;
         display: flex; flex-direction: column; justify-content: space-between;
@@ -19,14 +23,16 @@
         }
     }
     &__cover {
+        box-sizing: border-box;
         position: absolute;
+        object-fit: fill;
         top: 0;
         left: 0;
         z-index: -1;
         width: 100%;
         height: 100%;
         border: 1px solid white;
-        border-radius: 0px 20px 20px 0px;
-        background-color: white;
+        border-radius: 20px;
+        
     }
 }
