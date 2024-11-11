@@ -1,5 +1,14 @@
-@mixin flex-between {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+@mixin button {
+  width: 200px;
+  font-family: "Playfair Display", serif;
+  font-weight: 550;
+  background-color: $paleblue;
+  border: 1px solid $grey;
+  padding: 10px;
+  border-radius: 50px;
+  text-align: center;
+  width: fit-content;
+  &:hover {
+      cursor: pointer;
   }
+}

@@ -1,15 +1,20 @@
 @import './variables.scss';
+@import './mixins.scss';
 
 .card {
+    position: relative;
+    z-index: 1;
     display: flex; flex-direction: row; justify-content: space-between;
     background-color: $darkgrape;
     border-radius: 20px;
     border: 1px solid $grey;
     &__content {
+        display: flex; flex-direction: column; justify-content: space-between;
         padding: 15px;
         width: 45%;
         &__btn {
-            text-align: end;
+            @include button;
+            
         }
     }
     &__cover {
