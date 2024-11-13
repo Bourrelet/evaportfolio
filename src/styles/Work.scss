@@ -21,6 +21,7 @@
         border-radius: 20px;
         @media (max-width: 480px) { // Affichage smartphone
             grid-template-columns: 1fr; // Une seule colonne prenant toute la largeur
+            margin: 0px 4.175%;
         }
         
     }

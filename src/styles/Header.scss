@@ -5,6 +5,9 @@
     border-radius: 20px 20px 0px 0px;
     // border: 1px solid $grey; border-top: none;
     z-index: 1;
+    @media (max-width: 480px) { // Affichage smartphone
+        border-radius: 0px;
+      }
     
     &__frame {
         position: relative;
@@ -14,6 +17,10 @@
         align-items: center;
         padding: 0px 15px;
         font-family: $nunito;
+        @media (max-width: 480px) { // Affichage smartphone
+            justify-content: center; flex-wrap: wrap;
+            padding-bottom: 10px;
+          }
 
         &__txt {
             font-size: 18px;

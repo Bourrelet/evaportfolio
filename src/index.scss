@@ -15,6 +15,7 @@ html {
 }
 
 body {
+
   margin: 0px 8.35%;
   height: 100%;
   max-width: 1440px;
@@ -23,7 +24,7 @@ body {
   }
 
   @media (max-width: 480px) { // Affichage smartphone
-    margin: 0px 4.175%;; // Supprime la marge sur les côtés
+    margin: 0px; // Supprime la marge sur les côtés
   }
   
 
