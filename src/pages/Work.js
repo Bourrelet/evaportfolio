@@ -7,7 +7,7 @@ import '../styles/Work.scss';
 function Work() {
   return (
     <div className='myWork'>
-      <h2 className='myWork__title'>Projects</h2>
+      <h2 className='myWork__title'>Some Projects</h2>
       <div className='myWork__box'>
         {data.works.map(work => 
           (<Card 

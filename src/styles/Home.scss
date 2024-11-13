@@ -37,16 +37,16 @@
             }
         }
 
-        &__badges {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(100px, 400px));
-            grid-auto-rows: minmax(100px, 150px); 
-            justify-content: center;
-            place-items: center; 
-            row-gap: 1vw;  // Augmenter le gap avec un media query quand le vw diminue
-        }
-
-
-
+    }
+    &__badges {
+        width: 100%;
+        box-sizing: border-box;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
+        grid-auto-rows: minmax(100px, 250px); 
+        justify-content: center;
+        place-items: center; 
+        // row-gap: 50px;  // Augmenter le gap avec un media query quand le vw diminue
+        column-gap: 150px;
     }
 }

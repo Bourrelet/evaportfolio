@@ -4,8 +4,8 @@
   position: relative;
   overflow: hidden;
   min-width: 100px;
-  max-width: 400px;
-  max-height: 200px; // modifier la height max quand le vw diminue
+  // max-width: 400px;
+  // max-height: 200px; // modifier la height max quand le vw diminue
   background-color: $darkgrape;
   border: 1px solid $grey;
   border-radius: 20px;
@@ -59,8 +59,8 @@
 
       &.open {
         transform: translateX(0);
-        max-width: 300px; 
-        max-height: 200px; // augmenter la height max quand le vw diminue
+        max-width: 400px; 
+        max-height: 400px; // augmenter la height max quand le vw diminue
       }
 
       &.closed {
