@@ -1,11 +1,12 @@
 @import './variables';
 .home-page{
     width: 100% ; 
-    margin-top: 25px;
+    margin-top: 40px;
 
     &__intro {
-        max-width: 65%;
-        min-width: 60%;
+        max-width: 780px;
+        width: 55vw;
+
         
         border-radius: 0px 20px 20px 20px;
         box-shadow: rgba(136, 90, 137, 0.4) 5px 5px, 
@@ -13,9 +14,17 @@
         rgba(136, 90, 137, 0.2) 15px 15px;
 
         display: flex; flex-direction: column; justify-content: space-between;
-
-        @media (max-width: 480px) { // Affichage smartphone
-            max-width: 95%;
+        @media (max-width: 1150px) { // Affichage smartphone
+            width: 65vw;
+          }
+          @media (max-width: 1050px) { // Affichage smartphone
+            width: 70vw;
+          }
+        @media (max-width: 800px) { // Affichage smartphone
+            width: 85vw;
+          }
+          @media (max-width: 600px) { // Affichage smartphone
+            width: 100%;
           }
 
         &__title {
