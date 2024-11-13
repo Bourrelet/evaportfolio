@@ -19,9 +19,11 @@
         column-gap: 5%;  
         row-gap: 20px;
         border-radius: 20px;
-        @media (max-width: 480px) { // Affichage smartphone
+        @media (max-width: 768px) { // Affichage smartphone et tablettes
             grid-template-columns: 1fr; // Une seule colonne prenant toute la largeur
             margin: 0px 4.175%;
+            row-gap: 5%;
+            font-size: 18px;
         }
         
     }

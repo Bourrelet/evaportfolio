@@ -2,9 +2,8 @@
 
 .project {    
     overflow: hidden;
-    min-height: 360px;
-    height: 100%;
     width: 100%;
+    aspect-ratio: 12/13;
     position: absolute;
     z-index: 2;
     // background-color: $darkgrape;
