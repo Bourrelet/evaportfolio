@@ -123,7 +123,7 @@
     },
     {
       "id": "103",
-      "title": "Node - A Book Directory Website - My Very First Backend Project",
+      "title": "Node - A Book Directory Backend Project",
       "cover": "/images/work/nodejs/cover.jpg",
       "samples": [
         {
@@ -139,7 +139,7 @@
           "comment": "I organized the backend repository with a clear structure, including middleware, error handling, backend routes, and controllers."
         }
       ],
-      "description": "I built a secure API following a technical specifications document to ensure alignment with project requirements. The backend includes user authentication and comprehensive data management with MongoDB.",
+      "description": "I built a secure API with user authentication and MongoDB data management, based on a technical specifications document.",
       "link": "https://github.com/Bourrelet/P7-Dev-Web-livres"
     }
   ]
