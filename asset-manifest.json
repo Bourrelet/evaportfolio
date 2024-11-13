@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/evaportfolio/static/css/main.17381a15.css",
+    "main.js": "/evaportfolio/static/js/main.01880189.js",
+    "index.html": "/evaportfolio/index.html",
+    "main.17381a15.css.map": "/evaportfolio/static/css/main.17381a15.css.map",
+    "main.01880189.js.map": "/evaportfolio/static/js/main.01880189.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.17381a15.css",
+    "static/js/main.01880189.js"
+  ]
+}
