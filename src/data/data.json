@@ -5,10 +5,10 @@
       "name": "HTML5",
       "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
       "skills": [
-        "Structurer le contenu des pages",
-        "Utilisation des balises sémantiques",
-        "Accessibilité (a11y)",
-        "SEO basique"
+        "Structuring page content",
+        "Using semantic tags",
+        "Accessibility (a11y)",
+        "Basic SEO"
       ]
     },
     {
@@ -16,10 +16,10 @@
       "name": "CSS3",
       "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg",
       "skills": [
-        "Responsive design avec flexbox et grid",
-        "Animations et transitions",
-        "Préprocesseurs (SCSS)",
-        "Création de layouts complexes"
+        "Responsive design with flexbox and grid",
+        "Animations and transitions",
+        "Preprocessors (SCSS)",
+        "Creating complex layouts"
       ]
     },
     {
@@ -27,10 +27,10 @@
       "name": "JavaScript",
       "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
       "skills": [
-        "Manipulation du DOM",
+        "DOM manipulation",
         "ES6+ (let, const, arrow functions, etc.)",
-        "Programmation asynchrone (promises, async/await)",
-        "Gestion d’événements"
+        "Asynchronous programming (promises, async/await)",
+        "Event handling"
       ]
     },
     {
@@ -38,10 +38,10 @@
       "name": "React",
       "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
       "skills": [
-        "Création de composants réutilisables",
-        "Gestion de l'état avec hooks",
-        "React Router pour le routage des pages",
-        "Interopérabilité avec des APIs"
+        "Creating reusable components",
+        "State management with hooks",
+        "Page routing with React Router",
+        "API interoperability"
       ]
     },
     {
@@ -49,10 +49,10 @@
       "name": "Node.js",
       "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg",
       "skills": [
-        "Création de serveurs avec Express",
-        "Gestion des fichiers et des opérations I/O",
-        "Authentification (JWT, cookies)",
-        "Développement d'APIs RESTful"
+        "Server creation with Express",
+        "File management and I/O operations",
+        "Authentication (JWT, cookies)",
+        "RESTful API development"
       ]
     },
     {
@@ -60,10 +60,10 @@
       "name": "MongoDB",
       "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg",
       "skills": [
-        "Création et gestion de collections",
-        "Utilisation de Mongoose pour la modélisation des données",
-        "Requêtes CRUD",
-        "Optimisation des requêtes pour la performance"
+        "Creating and managing collections",
+        "Data modeling with Mongoose",
+        "CRUD operations",
+        "Query optimization for performance"
       ]
     },
     {
@@ -71,47 +71,76 @@
       "name": "Postman",
       "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg",
       "skills": [
-        "Test et débogage des APIs",
-        "Automatisation des tests",
-        "Gestion des environnements",
-        "Création de collections de requêtes"
+        "API testing and debugging",
+        "Automated testing",
+        "Environment management",
+        "Creating request collections"
       ]
     }
   ],
   "works": [
     {
       "id": "101",
-      "title": "React - My real estate App",
+      "title": "React - A Real Estate App",
       "cover": "/images/work/React/accueil.jpg",
       "samples": [
         {
           "image": "/images/work/React/fichelogement.jpg",
-          "comment": "This page features many components handmade by me! Like a dropdown menu, or even a carousel. And everything is responsive.  "
+          "comment": "This app features interactive custom components, some animated with dynamic classes, like a dropdown menu or a carousel."
         },
         {
           "image": "/images/work/React/erreur.jpg",
-          "comment": "The routing is dynamic and handles parameters, enabling navigation to an error page for tricky users."
+          "comment": "Dynamic routing handles parameters, enabling navigation to an error page for invalid access. The app was built mobile-first and is fully responsive."
         }
       ],
-      "description": "I learned React by building a real estate rental single page application.",
+      "description": "I learned React by building a single-page application for real estate rentals. Its structure relies on hooks and state management.",
       "link": "https://github.com/Bourrelet/kaza-eva"
     },
     {
       "id": "102",
-      "title": "Gestion de Tâches",
-      "cover": "/images/project-screenshots/task-manager-cover.png",
+      "title": "JavaScript - A Space Designer Portfolio",
+      "cover": "/images/work/javascript/post.jpg",
       "samples": [
         {
-          "image": "/images/project-screenshots/task-manager-screenshot1.png",
-          "comment": "Interface de création et gestion des tâches, avec options de tri et de filtrage."
+          "image": "/images/work/javascript/login.jpg",
+          "comment": "The project includes login functionality with token management."
         },
         {
-          "image": "/images/project-screenshots/task-manager-screenshot2.png",
-          "comment": "Vue détaillée des tâches avec options de modification et de suppression."
+          "image": "/images/work/javascript/cover.jpg",
+          "comment": "On the landing page, the gallery is dynamically generated from the backend without any page reloading."
+        },
+        {
+          "image": "/images/work/javascript/delete.jpg",
+          "comment": "POST and DELETE requests are accessible via modals for logged-in users only."
+        },
+        {
+          "image": "/images/work/javascript/fullJS.jpg",
+          "comment": "I built the entire website frontend using only JavaScript, with no frameworks or libraries."
         }
       ],
-      "description": "Une application de gestion de tâches permettant de créer, modifier et supprimer des tâches. Ce projet m'a aidé à approfondir mes connaissances en MongoDB, Node.js et Express.",
-      "link": "https://github.com/mon-profil/task-manager"
+      "description": "This project involved creating a dynamic frontend portfolio using basic CRUD requests to interact with a REST API.",
+      "link": "https://github.com/Bourrelet/Portfolio-architecte-sophie-bluel"
+    },
+    {
+      "id": "103",
+      "title": "Node - A Book Directory Website - My Very First Backend Project",
+      "cover": "/images/work/nodejs/cover.jpg",
+      "samples": [
+        {
+          "image": "/images/work/nodejs/update.jpg",
+          "comment": "I implemented all possible CRUD interactions between the frontend and database, using JWT for secure user authentication and data management."
+        },
+        {
+          "image": "/images/work/nodejs/MongoDB.jpg",
+          "comment": "I completed all database setup steps, including model creation and security configurations."
+        },
+        {
+          "image": "/images/work/nodejs/addbook.jpg",
+          "comment": "I organized the backend repository with a clear structure, including middleware, error handling, backend routes, and controllers."
+        }
+      ],
+      "description": "I built a secure API following a technical specifications document to ensure alignment with project requirements. The backend includes user authentication and comprehensive data management with MongoDB.",
+      "link": "https://github.com/Bourrelet/P7-Dev-Web-livres"
     }
   ]
 }
