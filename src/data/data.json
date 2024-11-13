@@ -90,7 +90,7 @@
         },
         {
           "image": "/images/work/React/erreur.jpg",
-          "comment": "Dynamic routing handles parameters, enabling navigation to an error page for invalid access. The app was built mobile-first and is fully responsive."
+          "comment": "The app is built mobile-first and is fully responsive. its Dynamic routing handles parameters, and error gateway."
         }
       ],
       "description": "I learned React by building a single-page application for real estate rentals. Its structure relies on hooks and state management.",
@@ -103,7 +103,7 @@
       "samples": [
         {
           "image": "/images/work/javascript/login.jpg",
-          "comment": "The project includes login functionality with token management."
+          "comment": "The project includes connexion functionality and token management for the CRUD requests."
         },
         {
           "image": "/images/work/javascript/cover.jpg",
@@ -128,7 +128,7 @@
       "samples": [
         {
           "image": "/images/work/nodejs/update.jpg",
-          "comment": "I implemented all possible CRUD interactions between the frontend and database, using JWT for secure user authentication and data management."
+          "comment": "I implemented every CRUD interactions possible, using JWT for secure user authentication and data management."
         },
         {
           "image": "/images/work/nodejs/MongoDB.jpg",
