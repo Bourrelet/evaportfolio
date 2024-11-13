@@ -57,7 +57,8 @@ function Project({samples, link, closeModale}) {
         <p className='project__content__txt' >{samples[activeIndex].comment}</p>
         <div className='project__content__btn'> 
           <button className='project__content__btn__close' onClick={closeModale}> Close Project </button>
-          <button className='project__content__btn__link' onClick={() => window.open({link})}> {gitHubCat} </button>
+          <button className="project__content__btn__link" onClick={() => window.open(link, '_blank')}>{gitHubCat}</button>
+
         </div>
         
       </div>
