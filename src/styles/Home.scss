@@ -1,30 +1,59 @@
 @import './variables';
 .home-page{
     width: 100% ; 
-    margin-top: 54px;
+    margin-top: 25px;
 
     &__intro {
-        width: 100%;
-        display: flex; flex-direction: row; justify-content: space-between;
+        max-width: 65%;
+        min-width: 60%;
+        
+        border-radius: 0px 20px 20px 20px;
+        box-shadow: rgba(136, 90, 137, 0.4) 5px 5px, 
+        rgba(136, 90, 137, 0.3) 10px 10px, 
+        rgba(136, 90, 137, 0.2) 15px 15px;
 
-        &__txt {
-            max-width: 41%;
+        display: flex; flex-direction: column; justify-content: space-between;
+
+        @media (max-width: 480px) { // Affichage smartphone
+            max-width: 95%;
+          }
+
+        &__title {
             padding: 15px;
-
+            border-radius: 0px 20px 0px 0px;
             background-color: $darkgrape;         
             border: 1px solid $grey;
+
+        }
+        &__txt *{
+            padding: 15px;
             border-radius: 0px 20px 20px 0px;
-            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            background-color: $lavenderwhite;
+            color: $darkgrape;
+            font-size: 20px;
         }
 
         &__frame{
-            position: relative;
+            position: absolute;
             width: 40vw;
             max-width: 576px;
-            top: -54px;
+            top: 60px;
+            right: 8.35%;
             
             border-radius: 100% 0% 0% 100% / 0% 100% 0% 100%;
             background-color: $darkgrape;
+            @media (max-width: 768px) { // Affichage tablette
+                right: 4.175%; // Supprime la marge sur les côtés
+                // top: 70px;
+              }
+              @media (max-width: 480px) { // Affichage smartphone
+                right: 0; // Supprime la marge sur les côtés
+                top: 70.67px;
+              }
+              @media (max-width: 403px) { // Affichage smartphone
+                top: 92px;
+              }
+
 
             &__photo {
                 position: relative;

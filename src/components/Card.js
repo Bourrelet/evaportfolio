@@ -15,7 +15,7 @@ const Card = ({id, title, cover, description, samples, link}) => {
       {viewProject ? <Project samples={samples} link={link} closeModale={toggleView}/> : '' }      
       <div className='card__content'>
         <h3 className='card__content__title'>{title}</h3>
-        <p className='card__content_txt'>{description}</p>
+        <p className='card__content__txt'>{description}</p>
         <button className='card__content__btn' onClick={toggleView}>View Project</button>
       </div>
       <img className="card__cover" src={cover} alt={title}/>
