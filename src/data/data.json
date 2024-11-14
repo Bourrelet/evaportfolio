@@ -131,7 +131,7 @@
           "comment": "I implemented every CRUD interactions possible, using JWT for secure user authentication and data management."
         },
         {
-          "image": "/images/work/nodejs/MongoDB.jpg",
+          "image": "/images/work/nodejs/mongoDB.jpg",
           "comment": "I completed all database setup steps, including model creation and security configurations."
         },
         {
