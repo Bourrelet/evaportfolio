@@ -1,5 +1,5 @@
-import React, { useState } from 'react'; // Ajoute `useState` à l'import
-import '../styles/Badge.scss'; // Chemin relatif vers le dossier styles
+import React, { useState } from 'react'; 
+import '../styles/Badge.scss';
 
 function Badge({id, name, logo, skills, color}) {
  
@@ -13,7 +13,6 @@ function Badge({id, name, logo, skills, color}) {
   const skillsAnimation = `${detected ? 'open' : 'closed'}`;
   const badgeAnimation =  `${detected ? 'noticed' : 'unnoticed'}`;
   
-  // const dynamicRotation = `${detected ? 'down' : 'up'}`;
 
   return (
     <div className='badge' onMouseEnter={detection} onMouseLeave={detection}>

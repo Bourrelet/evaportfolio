@@ -1,5 +1,5 @@
-import React, { useState } from 'react'; // Ajoute `useState` à l'import
-import Project from './Project'; // Assure-toi d'importer `Project` correctement
+import React, { useState } from 'react'; 
+import Project from './Project'; 
 import '../styles/Card.scss';
 
 const Card = ({id, title, cover, description, samples, link}) => {

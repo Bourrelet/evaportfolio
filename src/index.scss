@@ -9,7 +9,7 @@ html {
   
   max-width: 1440px;
   margin: 0 auto;
-  // border: 1px solid red;
+
   position: relative;
   box-sizing: border-box;
   
@@ -21,12 +21,12 @@ body {
   margin: 0px 8.35%;
   height: 100%;
   max-width: 1440px;
-  @media (max-width: 768px) { // Affichage tablette
-    margin: 0px 4.175%; // Supprime la marge sur les côtés
+  @media (max-width: 768px) { 
+    margin: 0px 4.175%; 
   }
 
-  @media (max-width: 480px) { // Affichage smartphone
-    margin: 0px; // Supprime la marge sur les côtés
+  @media (max-width: 480px) { 
+    margin: 0px; 
   }
   
 
@@ -38,14 +38,14 @@ body {
 }
 
 ul {
-  list-style-type: none; /* Supprime les puces */
-  padding-left: 0; /* Supprime le padding par défaut */
-  margin: 0; /* Supprime la marge par défaut */
+  list-style-type: none; 
+  padding-left: 0; 
+  margin: 0; 
 }
 
 a {
-  text-decoration: none; /* Enlève le soulignement par défaut */
-  display: block; /* Permet au lien de prendre tout l'espace du <li> */
+  text-decoration: none; 
+  display: block;
   &:hover {
     color: $purple;
     cursor: pointer;
@@ -58,9 +58,8 @@ a {
 
 p , li {
   font-family: "Nunito", sans-serif;
-  // color: $greyone;
   color: $paleblue;
-  // color: black;
+
 }
 
 h1{

@@ -51,12 +51,12 @@
             
             border-radius: 100% 0% 0% 100% / 0% 100% 0% 100%;
             background-color: $darkgrape;
-            @media (max-width: 768px) { // Affichage tablette
-                right: 4.175%; // Supprime la marge sur les côtés
-                // top: 70px;
+            @media (max-width: 768px) { 
+                right: 4.175%; 
+               
               }
               @media (max-width: 480px) { // Affichage smartphone
-                right: 0; // Supprime la marge sur les côtés
+                right: 0; 
                 top: 70.67px;
               }
               @media (max-width: 403px) { // Affichage smartphone
@@ -84,7 +84,6 @@
         grid-auto-rows: minmax(100px, 250px); 
         justify-content: center;
         place-items: center; 
-        // row-gap: 50px;  // Augmenter le gap avec un media query quand le vw diminue
         column-gap: 150px;
     }
 }

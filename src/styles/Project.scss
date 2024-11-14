@@ -6,7 +6,6 @@
     aspect-ratio: 12/13;
     position: absolute;
     z-index: 2;
-    // background-color: $darkgrape;
     display: flex; justify-content: flex-end; flex-direction: column; align-items: center;
     border-radius: 20px;
 
@@ -102,7 +101,7 @@
         }
 
         &.bannerNo {            
-            opacity: 0; // Rendre transparent      
+            opacity: 0;   
         }
 
 
