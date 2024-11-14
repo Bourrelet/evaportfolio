@@ -27,6 +27,16 @@
         rgba(136, 90, 137, 0.3) 10px 10px, 
         rgba(136, 90, 137, 0.2) 15px 15px;
         margin-bottom:  40px;
+            @media (max-width: 768px) { 
+                margin: 0px 4.175%;
+                width: 100%; 
+              }
+            
+              @media (max-width: 480px) { 
+                margin: 0px; 
+                width: 100%; 
+              }
+        
 
         &__description * {
             background-color: $lavenderwhite;

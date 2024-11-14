@@ -9,7 +9,8 @@
         border-radius: 0px 20px 20px 0px;
         
     }
-    &__box {        
+    &__box {       
+        margin-bottom: 100px; 
         display: grid;
         grid-template-columns: repeat(2, 45%); 
         grid-auto-rows: auto;   
@@ -24,6 +25,7 @@
             margin: 0px 4.175%;
             row-gap: 5%;
             font-size: 18px;
+            margin-bottom: 175px;
         }
         
     }
