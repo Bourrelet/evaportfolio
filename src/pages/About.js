@@ -27,7 +27,7 @@ function About() {
       </div>
 
       <div className='aboutMe__frame'>
-        <img className='aboutMe__frame__photo' src="/images/homelander.webp"/>
+        <img className='aboutMe__frame__photo' src="/images/circleeva.png"/>
       </div>
 
     </div>
