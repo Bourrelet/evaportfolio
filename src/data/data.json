@@ -94,7 +94,7 @@
         },
         {
           "image": "/images/work/React/scss.jpg",
-          "comment": "To handle complex designs efficiently, I learned SCSS for creating dynamic styles and animations driven by state changes, which made my components more interactive."
+          "comment": "To handle complex designs efficiently, I learned SCSS for creating dynamic styles and animations driven by state changes."
         },        
         {
           "image": "/images/work/React/collapse.jpg",
@@ -112,11 +112,11 @@
       "samples": [
         {
           "image": "/images/work/javascript/login.jpg",
-          "comment": "Managing access to protected CRUD operations taught me how to handle authentication tokens by securely storing them and including them in requests."
+          "comment": "Managing access to protected CRUD operations taught me how to securely handle and store authentication tokens for requests."
         },
         {
           "image": "/images/work/javascript/cover.jpg",
-          "comment": "Generating a dynamic gallery from API data without page reloads taught me to master asynchronous JavaScript with fetch and async/await."
+          "comment": "Generating a gallery from API data without page reloads taught me to master asynchronous JavaScript using fetch and async/await."
         },
         {
           "image": "/images/work/javascript/delete.jpg",
@@ -124,7 +124,7 @@
         },
         {
           "image": "/images/work/javascript/fullJS.jpg",
-          "comment": "Developing the entire frontend from scratch using vanilla JavaScript helped me strengthen my skills in DOM manipulation and REST API integration."
+          "comment": "Developing the entire frontend using vanilla JavaScript strengthened my skills in DOM manipulation and REST API integration."
         }
       ],
       "description": "This project involved creating a dynamic frontend portfolio using basic CRUD requests to interact with a REST API.",
@@ -141,7 +141,7 @@
         },
         {
           "image": "/images/work/nodejs/mongoDB.jpg",
-          "comment": "To ensure a secured configuration, I set up the database using environment variables. I also implemented systematic business logic to reduce unnecessary load on the database."
+          "comment": "To ensure security, I set up the database using environment variables. I also implemented systematic business logic to reduce unnecessary load."
         },
         {
           "image": "/images/work/nodejs/addbook.jpg",
