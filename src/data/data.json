@@ -86,12 +86,21 @@
       "samples": [
         {
           "image": "/images/work/React/fichelogement.jpg",
-          "comment": "This app features interactive custom components, some animated with dynamic classes, like a dropdown menu or a carousel."
+          "comment": "Designing a scalable SPA required structuring reusable layouts and components, which improved the application's organization and maintainability."
         },
         {
           "image": "/images/work/React/erreur.jpg",
-          "comment": "The app is built mobile-first and is fully responsive. its Dynamic routing handles parameters, and error gateway."
+          "comment": "Building robust navigation with React Router allowed me to handle dynamic parameters for content generation and implement an error gateway for invalid routes."
+        },
+        {
+          "image": "/images/work/React/scss.jpg",
+          "comment": "To handle complex designs efficiently, I learned SCSS for creating dynamic styles and animations driven by state changes, which made my components more interactive."
+        },        
+        {
+          "image": "/images/work/React/collapse.jpg",
+          "comment": "Creating a reusable dynamic collapse component challenged me to master state and props management, ensuring flexibility for future use."
         }
+        
       ],
       "description": "I learned React by building a single-page application for real estate rentals. Its structure relies on hooks and state management.",
       "link": "https://github.com/Bourrelet/kaza-eva"
@@ -103,19 +112,19 @@
       "samples": [
         {
           "image": "/images/work/javascript/login.jpg",
-          "comment": "The project includes connexion functionality and token management for the CRUD requests."
+          "comment": "Implementing secure CRUD operations challenged me to use token-based authentication, ensuring only logged-in users could access sensitive actions."
         },
         {
           "image": "/images/work/javascript/cover.jpg",
-          "comment": "On the landing page, the gallery is dynamically generated from the backend without any page reloading."
+          "comment": "Generating a dynamic gallery from API data without page reloads taught me to master asynchronous JavaScript with fetch and async/await."
         },
         {
           "image": "/images/work/javascript/delete.jpg",
-          "comment": "POST and DELETE requests are accessible via modals for logged-in users only."
+          "comment": "Creating modals for CRUD actions challenged me to perform complex DOM manipulations to handle their behavior and dynamic updates."
         },
         {
           "image": "/images/work/javascript/fullJS.jpg",
-          "comment": "I built the entire website frontend using only JavaScript, with no frameworks or libraries."
+          "comment": "Developing the entire frontend from scratch using vanilla JavaScript helped me strengthen my skills in DOM manipulation and REST API integration."
         }
       ],
       "description": "This project involved creating a dynamic frontend portfolio using basic CRUD requests to interact with a REST API.",
@@ -128,15 +137,15 @@
       "samples": [
         {
           "image": "/images/work/nodejs/update.jpg",
-          "comment": "I implemented every CRUD interactions possible, using JWT for secure user authentication and data management."
+          "comment": "I structured my backend into modules to handle requests step by step, enabling all CRUD operations, including those with authentication and data manipulation."
         },
         {
           "image": "/images/work/nodejs/mongoDB.jpg",
-          "comment": "I completed all database setup steps, including model creation and security configurations."
+          "comment": "To ensure a secured configuration, I set up the database using environment variables. I also implemented systematic business logic to reduce unnecessary load on the database."
         },
         {
           "image": "/images/work/nodejs/addbook.jpg",
-          "comment": "I organized the backend repository with a clear structure, including middleware, error handling, backend routes, and controllers."
+          "comment": "Managing parallel synchronous operations required optimizing workflows with clean, well-structured code to handle the complexity effectively."
         }
       ],
       "description": "I built a secure API with user authentication and MongoDB data management, based on a technical specifications document.",
