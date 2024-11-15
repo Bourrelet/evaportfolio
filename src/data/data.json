@@ -112,7 +112,7 @@
       "samples": [
         {
           "image": "/images/work/javascript/login.jpg",
-          "comment": "Implementing secure CRUD operations challenged me to use token-based authentication, ensuring only logged-in users could access sensitive actions."
+          "comment": "Managing access to protected CRUD operations taught me how to handle authentication tokens by securely storing them and including them in requests."
         },
         {
           "image": "/images/work/javascript/cover.jpg",
