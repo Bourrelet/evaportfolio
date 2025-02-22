@@ -2,6 +2,8 @@
 
 *Personal project by Eva, featuring homemade React components and a responsive design ; built from scratch in 6 days!*
 
+🌐 **Live demo:** [Link to my portfolio](https://evaportfolio.vercel.app/)
+
 This is my personal portfolio web app built with React, showcasing my projects, skills, and personality.
 Several components were inspired by previous projects but improved and adapted for an enhanced responsive experience.
 
