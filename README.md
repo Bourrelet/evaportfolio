@@ -1,6 +1,6 @@
 # Personal Portfolio (React)
 
-*Personal project by Eva, featuring homemade React components and a responsive design—built from scratch in 6 days!*
+*Personal project by Eva, featuring homemade React components and a responsive design ; built from scratch in 6 days!*
 
 This is my personal portfolio web app built with React, showcasing my projects, skills, and personality.
 Several components were inspired by previous projects but improved and adapted for an enhanced responsive experience.
